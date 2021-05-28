@@ -17,7 +17,7 @@ const IndexPage = () => (
       }}
     >
       <StaticImage
-        src="../images/balcony.png"
+        src="../../static/images/balcony.png"
         layout={'fullWidth'}
         borderColor='lightslategray'
         borderStyle='solid 5px'
