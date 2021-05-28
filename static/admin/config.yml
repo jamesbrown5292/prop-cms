@@ -1,0 +1,25 @@
+backend:
+  name: test-repo
+media_folder: static/assets
+public_folder: /assets
+collections:
+  - name: property
+    label: Property
+    folder: property
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: title, label: Title }
+      - { name: availability, label: Availability }
+      - { name: body, label: Body, widget: markdown }
+  - name: unit
+    label: Unit
+    folder: unit
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: title, label: Title }
+      - { name: availability, label: Availability }
+      - { name: beds, label: Beds }
+      - { name: baths, label: Baths }
+      - { name: body, label: Body, widget: markdown }
