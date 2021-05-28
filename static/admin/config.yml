@@ -4,10 +4,11 @@ backend:
   branch: main
 media_folder: static/assets
 public_folder: /assets
+
 collections:
   - name: property
     label: Property
-    folder: property
+    folder: src/pages/property
     create: true
     fields:
       - { name: path, label: Path }
